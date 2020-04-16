@@ -1,0 +1,19 @@
+﻿@page "/bitcoin"
+
+<h1>Bitcoin</h1>
+<h3>Paper Profit (or Loss)</h3>
+
+<br />
+<p>-11%</p>
+<br />
+
+<button class="btn btn-primary" @onclick="Reset">Reset</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void Reset()
+    {
+        currentCount++;
+    }
+}
