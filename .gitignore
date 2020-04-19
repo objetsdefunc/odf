@@ -165,8 +165,8 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 # Allow only the necesary published files in the repository
-**/publish/*.dll
-**/publish/web.config
+**/Site/*.dll
+**/Site/web.config
 
 # Publish Web Output
 *.[Pp]ublish.xml
